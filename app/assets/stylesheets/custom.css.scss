@@ -47,7 +47,7 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
-.article_actions
+.article-actions
 {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
@@ -55,14 +55,27 @@ $navbar-default-bg: black;
 
 .description
 {
-  margin-top:0;
+  margin-top: 0;
+}
+
+.article-title
+{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body
+{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer
 {
   margin-top: 45px;
   padding-top: 5px;
-  border-top:1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
   color: #777;
 }
 
